@@ -5,13 +5,13 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import Problem2 from './components/CardFlip.vue'
+// import Problem2 from './components/CardFlip.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
-    Problem2
+    // Problem2
   }
 }
 </script>
