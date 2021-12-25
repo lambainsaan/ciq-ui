@@ -15,9 +15,9 @@ const NotFoundComponent = {
 }
 
 const routes = {
-    // '/': ChooseComponent,
-    // '/card': CardFlip,
-    '/': VirtualKeyboard
+    '/': ChooseComponent,
+    '/card': CardFlip,
+    '/virtual-keyboard': VirtualKeyboard
 }
 
 
