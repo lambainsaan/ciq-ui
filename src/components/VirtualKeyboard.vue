@@ -11,7 +11,6 @@
         class="key"
         v-on:click="keyboard.keyPress(key)"
       >
-        <!-- {{key}} -->
         <div class="lower-key">
           {{ key.lower }}
         </div>

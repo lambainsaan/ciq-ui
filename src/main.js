@@ -21,7 +21,6 @@ const routes = {
 }
 
 
-// createApp(SimpleRouter).mount('#app')
 createApp({
     data: () => ({
         currentRoute: window.location.pathname
@@ -37,7 +36,6 @@ createApp({
         return h(this.CurrentComponent)
     },
     el: '#app',
-    // router,
     components: { CardFlip, VirtualKeyboard, ChooseComponent }
 
 }).mount("#app")
