@@ -9,7 +9,7 @@
         devtool: 'source-map'
       },
       transpileDependencies: ['@vue/reactivity'],
-      publicPath: '/ciq-ui'
+      publicPath: ''
 
   }
   
